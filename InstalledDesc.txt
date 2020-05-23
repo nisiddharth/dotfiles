@@ -1,0 +1,660 @@
+--To get list of all installed packages run :
+
+sudo aptitude -F '%p' search '~i!~M'	-< gives without description
+sudo aptitude search '~i!~M'			-< with description
+sudo apt list --installed				-< with description
+------------------------------------------------------------------------
+Install Teams, Chrome, Code, Burpsuite, using there official packages
+------------------------------------------------------------------------
+
+Important PPAs:
+sudo add-apt-repository ppa:system76/pop
+sudo add-apt-repository ppa:numix/ppa
+sudo add-apt-repository ppa:i2p-maintainers/i2p
+
+------------------------------------------------------------------------
+
+i  4kvideodownloader - Download online video
+i  acpi - displays information on ACPI devices
+i  acpi-support - scripts for handling many ACPI events
+i  adb - Android Debug Bridge
+i  adduser - add and remove users and groups
+i  aircrack-ng - wireless WEP/WPA cracking utilities
+i  alsa-base - ALSA driver configuration files
+i  app-install-data-partner - Application Installer (data files for partner applications/repositories)
+i  appmenu-gtk2-module - GtkMenuShell D-Bus exporter (GTK+2.0)
+i  appmenu-gtk3-module - GtkMenuShell D-Bus exporter (GTK+3.0)
+i  apt - commandline package manager
+i  apt-transport-https - transitional package for https support
+i  apt-utils - package management related utility programs
+i  aptitude - terminal-based package manager
+i  avahi-autoipd - Avahi IPv4LL network address configuration daemon
+i  avahi-daemon - Avahi mDNS/DNS-SD daemon
+i  baobab - GNOME disk usage analyzer
+i  base-files - Debian base system miscellaneous files
+i  base-passwd - Debian base system master password and group files
+i  bash - GNU Bourne Again SHell
+i  binwalk - tool library for analyzing binary blobs and executable code
+i  bleachbit - delete unnecessary files from the system
+i  bluez - Bluetooth tools and daemons
+i  bluez-cups - Bluetooth printer driver for CUPS
+i  breeze-cursor-theme - Default Plasma cursor theme.
+i  bsdutils - basic utilities from 4.4BSD-Lite
+i  build-essential - Informational list of build-essential packages
+i  bzip2 - high-quality block-sorting file compressor - utilities
+i  bzr - transitional dummy package for brz
+i  ca-certificates - Common CA certificates
+i  caca-utils - text mode graphics utilities
+i  checkinstall - installation tracker
+i  cheese - tool to take pictures and videos from your webcam
+i  chrome-gnome-shell - GNOME Shell extensions integration for web browsers
+i  cmatrix - simulates the display from "The Matrix"
+i  code - Code editing. Redefined.
+i  com.github.donadigo.eddy - Eddy
+i  console-setup - console font and keymap setup program
+i  console-setup-linux - Linux specific part of console-setup
+i  copyq - Advanced clipboard manager with editing and scripting features
+i  coreutils - GNU core utilities
+i  cowsay - configurable talking cow
+i  cron - process scheduling daemon
+i  cryptsetup - disk encryption support - startup scripts
+i  cups - Common UNIX Printing System(tm) - PPD/driver support, web interface
+i  cups-bsd - Common UNIX Printing System(tm) - BSD commands
+i  curl - command line tool for transferring data with URL syntax
+i  dash - POSIX-compliant shell
+i  dbus - simple interprocess messaging system (daemon and utilities)
+i  dbus-user-session - simple interprocess messaging system (systemd --user integration)
+i  dconf-editor - simple configuration storage system - graphical editor
+i  debconf - Debian configuration management system
+i  debconf-i18n - full internationalization support for debconf
+i  debianutils - Miscellaneous utilities specific to Debian
+i  default-jdk - Standard Java or Java compatible Development Kit
+i  diffutils - File comparison utilities
+i  dirmngr - GNU privacy guard - network certificate management service
+i  distro-info-data - information about the distributions' releases (data files)
+i  dmsetup - Linux Kernel Device Mapper userspace library
+i  dosbox - x86 emulator with Tandy/Herc/CGA/EGA/VGA/SVGA graphics, sound and DOS
+i  dosfstools - utilities for making and checking MS-DOS FAT filesystems
+i  dpkg - Debian package management system
+i  e2fsprogs - ext2/ext3/ext4 file system utilities
+i  ecryptfs-utils - ecryptfs cryptographic filesystem (utilities)
+i  eject - ejects CDs and operates CD-Changers under Linux
+i  eog - Eye of GNOME graphics viewer program
+i  espeak - Multi-lingual software speech synthesizer
+i  evince - Document (PostScript, PDF) viewer
+i  fbreader - e-book reader
+i  fdisk - collection of partitioning utilities
+i  feh - imlib2 based image viewer
+i  ffmpeg - Tools for transcoding, streaming and playing of multimedia files
+i  file - Recognize the type of data in a file using "magic" numbers
+i  file-roller - archive manager for GNOME
+i  findutils - utilities for finding files--find, xargs
+i  finger - user information lookup program
+i  firefox - Safe and easy web browser from Mozilla
+i  firefox-locale-ar - Arabic language pack for Firefox
+i  firefox-locale-de - German language pack for Firefox
+i  firefox-locale-en - English language pack for Firefox
+i  firefox-locale-es - Spanish; Castilian language pack for Firefox
+i  firefox-locale-fr - French language pack for Firefox
+i  firefox-locale-it - Italian language pack for Firefox
+i  firefox-locale-ja - Japanese language pack for Firefox
+i  firefox-locale-pt - Portuguese language pack for Firefox
+i  firefox-locale-ru - Russian language pack for Firefox
+i  firefox-locale-zh-hans - Simplified Chinese language pack for Firefox
+i  firefox-locale-zh-hant - Traditional Chinese language pack for Firefox
+i  fonts-arabeyes - Arabeyes GPL TrueType Arabic fonts
+i  fonts-arphic-ukai - "AR PL UKai" Chinese Unicode TrueType font collection Kaiti style
+i  fonts-arphic-uming - "AR PL UMing" Chinese Unicode TrueType font collection Mingti style
+i  fonts-dejavu-core - Vera font family derivate with additional characters
+i  fonts-firacode - Monospaced font with programming ligatures
+i  fonts-freefont-ttf - Freefont Serif, Sans and Mono Truetype fonts
+i  fonts-kacst - KACST free TrueType Arabic fonts
+i  fonts-liberation - Fonts with the same metrics as Times, Arial and Courier
+i  fonts-noto - metapackage to pull in all Noto fonts
+i  fonts-noto-cjk - "No Tofu" font families with large Unicode coverage (CJK regular and bold)
+i  fonts-noto-cjk-extra - "No Tofu" font families with large Unicode coverage (CJK all weight)
+i  fonts-noto-color-emoji - color emoji font from Google
+i  fonts-roboto - metapackage to pull in Roboto fonts
+i  fonts-roboto-fontface - largely geometric, friendly and open curves font
+i  fonts-symbola - symbolic font providing emoji characters from Unicode 9.0
+i  foremost - forensic program to recover lost files
+i  fortune-mod - provides fortune cookies on demand
+i  fwupd - Firmware update daemon
+i  fwupdate - Transitional package for fwupd
+i  gcc-9-base - GCC, the GNU Compiler Collection (base package)
+i  gdb - GNU Debugger
+i  gdm3 - GNOME Display Manager
+i  gedit - official text editor of the GNOME desktop environment
+i  gedit-plugins - set of plugins for gedit
+i  ghostscript-x - interpreter for the PostScript language and for PDF - X11 support
+i  gimp - GNU Image Manipulation Program
+i  gimp-help-de - Documentation for the GIMP (German)
+i  gimp-help-en - Documentation for the GIMP (English)
+i  gimp-help-es - Documentation for the GIMP (Spanish)
+i  gimp-help-fr - Documentation for the GIMP (French)
+i  gimp-help-it - Documentation for the GIMP (Italian)
+i  gimp-help-ja - Documentation for the GIMP (Japanese)
+i  gimp-help-pt - Documentation for the GIMP (Portuguese)
+i  gimp-help-ru - Documentation for the GIMP (Russian)
+i  gir1.2-geocodeglib-1.0 - introspection data for geocode-glib library
+i  gir1.2-glib-2.0 - Introspection data for GLib, GObject, Gio and GModule
+i  gir1.2-gmenu-3.0 - GObject introspection data for the GNOME menu library
+i  gir1.2-packagekitglib-1.0 - GObject introspection data for the PackageKit GLib library
+i  git - fast, scalable, distributed revision control system
+i  glib-networking - network-related giomodules for GLib
+i  gnome-bluetooth - GNOME Bluetooth tools
+i  gnome-boxes - Simple GNOME app to access remote or virtual systems
+i  gnome-calculator - GNOME desktop calculator
+i  gnome-control-center - utilities to configure the GNOME desktop
+i  gnome-disk-utility - manage and configure disk drives and media
+i  gnome-font-viewer - font viewer for GNOME
+i  gnome-getting-started-docs-de - Help a new user get started in GNOME (German)
+i  gnome-getting-started-docs-es - Help a new user get started in GNOME (Spanish)
+i  gnome-getting-started-docs-fr - Help a new user get started in GNOME (French)
+i  gnome-getting-started-docs-it - Help a new user get started in GNOME (Italian)
+i  gnome-getting-started-docs-ja - Help a new user get started in GNOME (Japanese)
+i  gnome-getting-started-docs-pt - Help a new user get started in GNOME (Portuguese)
+i  gnome-getting-started-docs-ru - Help a new user get started in GNOME (Russian)
+i  gnome-getting-started-docs-zh-hk - Help a new user get started in GNOME (Chinese (Traditional, Hong Kong))
+i  gnome-getting-started-docs-zh-tw - Help a new user get started in GNOME (Chinese (Traditional, Taiwan))
+i  gnome-menus - GNOME implementation of the freedesktop menu specification
+i  gnome-mines - popular minesweeper puzzle game for GNOME
+i  gnome-online-miners - Crawls through your online content
+i  gnome-orca - Scriptable screen reader - transitional package
+i  gnome-power-manager - power management tool for the GNOME desktop
+i  gnome-screenshot - screenshot application for GNOME
+i  gnome-shell - graphical shell for the GNOME desktop
+i  gnome-shell-extensions - Extensions to extend functionality of GNOME Shell
+i  gnome-sound-recorder - simple and modern sound recorder for GNOME
+i  gnome-sushi - sushi is a quick previewer for nautilus
+i  gnome-system-monitor - Process viewer and system resource monitor for GNOME
+i  gnome-terminal - GNOME terminal emulator application
+i  gnome-themes-standard - Adwaita GTK+ 2 theme — engine - transitional package
+i  gnome-tweaks - tool to adjust advanced configuration settings for GNOME
+i  gnome-user-docs-de - GNOME user docs (German)
+i  gnome-user-docs-es - GNOME user docs (Spanish)
+i  gnome-user-docs-fr - GNOME user docs (French)
+i  gnome-user-docs-it - GNOME user docs (Italian)
+i  gnome-user-docs-ja - GNOME user docs (Japanese)
+i  gnome-user-docs-pt - GNOME user docs (Portuguese)
+i  gnome-user-docs-ru - GNOME user docs (Russian)
+i  gnome-user-docs-zh-hans - GNOME user docs (Simplified Chinese)
+i  gnome-video-effects - Collection of GStreamer effects
+i  gnupg - GNU privacy guard - a free PGP replacement
+i  gnupg-l10n - GNU privacy guard - localization files
+i  gnupg-utils - GNU privacy guard - utility programs
+i  gnuplot-x11 - Command-line driven interactive plotting program. X-package
+i  google-chrome-stable - The web browser from Google
+i  googler - Power tool to Google (Web & News) and Google Site Search from the terminal
+i  gpg - GNU Privacy Guard -- minimalist public key operations
+i  gpg-agent - GNU privacy guard - cryptographic agent
+i  gpg-wks-client - GNU privacy guard - Web Key Service client
+i  gpg-wks-server - GNU privacy guard - Web Key Service server
+i  gpgconf - GNU privacy guard - core configuration utilities
+i  gpgsm - GNU privacy guard - S/MIME version
+i  gpgv - GNU privacy guard - signature verification tool
+i  gpick - advanced GTK+ color picker
+i  grep - GNU grep, egrep and fgrep
+i  gstreamer1.0-alsa - GStreamer plugin for ALSA
+i  gstreamer1.0-libav - ffmpeg plugin for GStreamer
+i  gstreamer1.0-plugins-bad - GStreamer plugins from the "bad" set
+i  gstreamer1.0-plugins-base-apps - GStreamer helper programs from the "base" set
+i  gstreamer1.0-plugins-ugly - GStreamer plugins from the "ugly" set
+i  gstreamer1.0-vaapi - VA-API plugins for GStreamer
+i  gtk2-engines-murrine - cairo-based gtk+-2.0 theme engine
+i  gtk2-engines-pixbuf - pixbuf-based theme for GTK 2
+i  guake - Drop-down terminal for GNOME Desktop Environment
+i  gucharmap - Unicode character picker and font browser
+i  gvfs-backends - userspace virtual filesystem - backends
+i  gvfs-bin - userspace virtual filesystem - deprecated command-line tools
+i  gvfs-fuse - userspace virtual filesystem - fuse server
+i  gzip - GNU compression utilities
+i  hashcat - World's fastest and most advanced password recovery utility
+i  hidpi-daemon - Daemon to manage HiDPI and LoDPI monitors on X
+i  hostname - utility to set/show the host name or domain name
+i  htop - interactive processes viewer
+i  hunspell-ar - Arabic dictionary for hunspell
+i  hunspell-de-at-frami - German (Austria) dictionary for hunspell ("frami" version)
+i  hunspell-de-ch-frami - German (Switzerland) dictionary for hunspell ("frami" version)
+i  hunspell-de-de-frami - German dictionary for hunspell ("frami" version)
+i  hunspell-en-au - English (Australia) dictionary for hunspell
+i  hunspell-en-ca - English (Canada) dictionary for hunspell
+i  hunspell-en-gb - English (GB) dictionary for hunspell
+i  hunspell-en-us - English_american dictionary for hunspell
+i  hunspell-en-za - English (South Africa) dictionary for hunspell
+i  hunspell-es - Spanish dictionary for hunspell
+i  hunspell-fr - French dictionary for hunspell (dependency package)
+i  hunspell-it - Italian dictionary for hunspell
+i  hunspell-pt-br - Brazilian Portuguese dictionary for hunspell
+i  hunspell-pt-pt - Portuguese dictionary for hunspell
+i  hunspell-ru - Russian dictionary for hunspell
+i  hydra - very fast network logon cracker
+i  hyphen-de - German hyphenation patterns
+i  hyphen-en-ca - English (Canada) hyphenation patterns
+i  hyphen-en-gb - English (GB) hyphenation patterns
+i  hyphen-en-us - English (US) hyphenation patterns
+i  hyphen-es - Spanish hyphenation patterns
+i  hyphen-fr - French hyphenation patterns
+i  hyphen-it - Italian hyphenation patterns
+i  hyphen-pt-br - Brazilian Portuguese hyphenation patterns
+i  hyphen-pt-pt - Portuguese hyphenation patterns
+i  hyphen-ru - Russian hyphenation patterns for LibreOffice/OpenOffice.org
+i  i2p - Invisible Internet Project (I2P) - anonymous network
+i  i2p-keyring - GnuPG keys of the I2P package repository
+i  ibus-chewing - Chewing engine for IBus
+i  ibus-libpinyin - Intelligent Pinyin engine based on libpinyin for IBus
+i  ibus-table - table engine for IBus
+i  ibus-table-cangjie3 - ibus-table input method: CangJie3
+i  ibus-table-cangjie5 - ibus-table input method: CangJie5
+i  ibus-table-quick-classic - ibus-table input method: Quick Classic
+i  ibus-table-wubi - ibus-table input method: Wubi
+i  idle - IDE for Python using Tkinter (default version)
+i  ifupdown - high level tools to configure network interfaces
+i  init - metapackage ensuring an init system is installed
+i  init-system-helpers - helper tools for all init systems
+i  inputattach - utility to connect serial-attached peripherals to the input subsystem
+i  intel-microcode - Processor microcode firmware for Intel CPUs
+i  iproute2 - networking and traffic control tools
+i  iputils-ping - Tools to test the reachability of network hosts
+i  isc-dhcp-client - DHCP client for automatically obtaining an IP address
+i  isc-dhcp-common - common manpages relevant to all of the isc-dhcp packages
+i  iso-codes - ISO language, territory, currency, script codes and their translations
+i  jupyter-core - Core common functionality of Jupyter projects (tools)
+i  jupyter-notebook - Jupyter interactive notebook
+i  kali-anonsurf - Parrot stealth and anon scripts, ported to work with Kali Linux
+i  kbd - Linux console font and keytable utilities
+i  kernelstub - Automatic kernel efistub manager for UEFI
+i  keyboard-configuration - system-wide keyboard preferences
+i  kmod - tools for managing Linux kernel modules
+i  language-pack-ar - translation updates for language Arabic
+i  language-pack-de - translation updates for language German
+i  language-pack-en - translation updates for language English
+i  language-pack-es - translation updates for language Spanish; Castilian
+i  language-pack-fr - translation updates for language French
+i  language-pack-gnome-ar - GNOME translation updates for language Arabic
+i  language-pack-gnome-de - GNOME translation updates for language German
+i  language-pack-gnome-en - GNOME translation updates for language English
+i  language-pack-gnome-es - GNOME translation updates for language Spanish; Castilian
+i  language-pack-gnome-fr - GNOME translation updates for language French
+i  language-pack-gnome-it - GNOME translation updates for language Italian
+i  language-pack-gnome-ja - GNOME translation updates for language Japanese
+i  language-pack-gnome-pt - GNOME translation updates for language Portuguese
+i  language-pack-gnome-ru - GNOME translation updates for language Russian
+i  language-pack-gnome-zh-hans - GNOME translation updates for language Simplified Chinese
+i  language-pack-gnome-zh-hant - GNOME translation updates for language Traditional Chinese
+i  language-pack-it - translation updates for language Italian
+i  language-pack-ja - translation updates for language Japanese
+i  language-pack-pt - translation updates for language Portuguese
+i  language-pack-ru - translation updates for language Russian
+i  language-pack-zh-hans - translation updates for language Simplified Chinese
+i  language-pack-zh-hant - translation updates for language Traditional Chinese
+i  language-selector-gnome - Language selector for Ubuntu
+i  laptop-detect - system chassis type checker
+i  less - pager program similar to more
+i  lib32z1 - compression library - 32 bit runtime
+i  libacl1 - access control list - shared library
+i  libapparmor1 - changehat AppArmor library
+i  libappstream4 - Library to access AppStream services
+i  libapt-pkg5.90 - package management runtime library
+i  libargon2-1 - memory-hard hashing function - runtime library
+i  libasn1-8-heimdal - Heimdal Kerberos - ASN.1 library
+i  libassuan0 - IPC library for the GnuPG components
+i  libatk-adaptor - AT-SPI 2 toolkit bridge
+i  libatm1 - shared library for ATM (Asynchronous Transfer Mode)
+i  libattr1 - extended attribute handling - shared library
+i  libaudit-common - Dynamic library for security auditing - common files
+i  libaudit1 - Dynamic library for security auditing
+i  libblkid1 - block device ID library
+i  libblockdev-crypto2 - Crypto plugin for libblockdev
+i  libblockdev-mdraid2 - MD RAID plugin for libblockdev
+i  libbsd0 - utility functions from BSD systems - shared library
+i  libbz2-1.0 - high-quality block-sorting file compressor library - runtime
+i  libbz2-1.0:i386 - high-quality block-sorting file compressor library - runtime
+i  libc-bin - GNU C Library: Binaries
+i  libc6 - GNU C Library: Shared libraries
+i  libc6:i386 - GNU C Library: Shared libraries
+i  libcanberra-gtk-module - translates GTK+ widgets signals to event sounds
+i  libcap-ng0 - An alternate POSIX capabilities library
+i  libcap2 - POSIX 1003.1e capabilities (library)
+i  libcap2-bin - POSIX 1003.1e capabilities (utilities)
+i  libcom-err2 - common error description library
+i  libcryptsetup12 - disk encryption support - shared library
+i  libdb5.3 - Berkeley v5.3 Database Libraries [runtime]
+i  libdbus-1-3 - simple interprocess messaging system (library)
+i  libdebconfclient0 - Debian Configuration Management System (C-implementation library)
+i  libdevmapper1.02.1 - Linux Kernel Device Mapper userspace library
+i  libdns-export1104 - Exported DNS Shared Library
+i  libegl-mesa0 - free implementation of the EGL API -- Mesa vendor library
+i  libelf1 - library to read and write ELF files
+i  libestr0 - Helper functions for handling strings (lib)
+i  libexpat1 - XML parsing C library - runtime library
+i  libext2fs2 - ext2/ext3/ext4 file system libraries
+i  libfastjson4 - fast json library for C
+i  libfdisk1 - fdisk partitioning library
+i  libffi6 - Foreign Function Interface library runtime
+i  libfribidi0 - Free Implementation of the Unicode BiDi algorithm
+i  libgcc1 - GCC support library (dependency package)
+i  libgcrypt20 - LGPL Crypto library - runtime library
+i  libgdk-pixbuf2.0-dev - GDK Pixbuf library (development files)
+i  libgirepository-1.0-1 - Library for handling GObject introspection data (runtime library)
+i  libglib2.0-0 - GLib library of C routines
+i  libglib2.0-bin - Programs for the GLib library
+i  libglib2.0-data - Common files for GLib library
+i  libglib2.0-dev - Development files for the GLib library
+i  libgmp10 - Multiprecision arithmetic library
+i  libgnutls30 - GNU TLS library - main runtime library
+i  libgpg-error0 - GnuPG development runtime library
+i  libgssapi3-heimdal - Heimdal Kerberos - GSSAPI support library
+i  libgstreamer1.0-0 - Core GStreamer libraries and elements
+i  libhcrypto4-heimdal - Heimdal Kerberos - crypto library
+i  libheimbase1-heimdal - Heimdal Kerberos - Base library
+i  libheimntlm0-heimdal - Heimdal Kerberos - NTLM support library
+i  libhogweed4 - low level cryptographic library (public-key cryptos)
+i  libhx509-5-heimdal - Heimdal Kerberos - X509 support library
+i  libicu63 - International Components for Unicode
+i  libidn2-0 - Internationalized domain names (IDNA2008/TR46) library
+i  libinput-tools - input device management and event handling library - command line tools
+i  libip4tc2 - netfilter libip4tc library
+i  libisc-export1100 - Exported ISC Shared Library
+i  libjson-c4 - JSON manipulation library - shared library
+i  libkmod2 - libkmod shared library
+i  libkrb5-26-heimdal - Heimdal Kerberos - libraries
+i  libksba8 - X.509 and CMS support library
+i  libldap-2.4-2 - OpenLDAP libraries
+i  libldap-common - OpenLDAP common files for libraries
+i  liblmdb0 - Lightning Memory-Mapped Database shared library
+i  liblocale-gettext-perl - module using libc functions for internationalization in Perl
+i  liblz4-1 - Fast LZ compression algorithm library - runtime
+i  liblzma5 - XZ-format compression library
+i  libmagic-mgc - File type determination library using "magic" numbers (compiled magic file)
+i  libmagic1 - Recognize the type of data in a file using "magic" numbers - library
+i  libmnl0 - minimalistic Netlink communication library
+i  libmount1 - device mounting library
+i  libmpdec2 - library for decimal floating point arithmetic (runtime library)
+i  libncurses5:i386 - shared libraries for terminal handling (legacy version)
+i  libncurses5-dev - transitional package for libncurses-dev
+i  libncurses6 - shared libraries for terminal handling
+i  libncursesw6 - shared libraries for terminal handling (wide character support)
+i  libnettle6 - low level cryptographic library (symmetric and one-way cryptos)
+i  libnewt0.52 - Not Erik's Windowing Toolkit - text mode windowing with slang
+i  libnotify-bin - sends desktop notifications to a notification daemon (Utilities)
+i  libnpth0 - replacement for GNU Pth using system threads
+i  libnss-mdns - NSS module for Multicast DNS name resolution
+i  libnss-systemd - nss module providing dynamic user and group name resolution
+i  libp11-kit0 - library for loading and coordinating access to PKCS#11 modules - runtime
+i  libpackagekit-glib2-18 - Library for accessing PackageKit using GLib
+i  libpam-cap - POSIX 1003.1e capabilities (PAM module)
+i  libpam-gnome-keyring - PAM module to unlock the GNOME keyring upon login
+i  libpam-modules - Pluggable Authentication Modules for PAM
+i  libpam-modules-bin - Pluggable Authentication Modules for PAM - helper binaries
+i  libpam-runtime - Runtime support for the PAM library
+i  libpam-systemd - system and service manager - PAM module
+i  libpam0g - Pluggable Authentication Modules library
+i  libpcre2-8-0 - New Perl Compatible Regular Expression Library- 8 bit runtime files
+i  libpcre3 - Old Perl 5 Compatible Regular Expression Library - runtime files
+i  libpolkit-agent-1-0 - PolicyKit Authentication Agent API
+i  libpolkit-gobject-1-0 - PolicyKit Authorization API
+i  libpopt0 - lib for parsing cmdline parameters
+i  libprocps7 - library for accessing process information from /proc
+i  libproxy1-plugin-gsettings - automatic proxy configuration management library (GSettings plugin)
+i  libproxy1-plugin-networkmanager - automatic proxy configuration management library (Network Manager plugin)
+i  libpython3-stdlib - interactive high-level object-oriented language (default python3 version)
+i  libpython3.7-minimal - Minimal subset of the Python language (version 3.7)
+i  libpython3.7-stdlib - Interactive high-level object-oriented language (standard library, version 3.7)
+i  libreadline8 - GNU readline and history libraries, run-time libraries
+i  libreoffice-calc - office productivity suite -- spreadsheet
+i  libreoffice-gnome - office productivity suite -- GNOME integration
+i  libreoffice-help-de - office productivity suite -- German help
+i  libreoffice-help-en-gb - office productivity suite -- English_british help
+i  libreoffice-help-en-us - office productivity suite -- English_american help
+i  libreoffice-help-es - office productivity suite -- Spanish help
+i  libreoffice-help-fr - office productivity suite -- French help
+i  libreoffice-help-it - office productivity suite -- Italian help
+i  libreoffice-help-ja - office productivity suite -- Japanese help
+i  libreoffice-help-pt - office productivity suite -- Portuguese help
+i  libreoffice-help-pt-br - office productivity suite -- Portuguese_brazilian help
+i  libreoffice-help-ru - office productivity suite -- Russian help
+i  libreoffice-help-zh-cn - office productivity suite -- Chinese_simplified help
+i  libreoffice-help-zh-tw - office productivity suite -- Chinese_traditional help
+i  libreoffice-impress - office productivity suite -- presentation
+i  libreoffice-l10n-ar - office productivity suite -- Arabic language package
+i  libreoffice-l10n-de - office productivity suite -- German language package
+i  libreoffice-l10n-en-gb - office productivity suite -- English_british language package
+i  libreoffice-l10n-en-za - office productivity suite -- English_southafrican language package
+i  libreoffice-l10n-es - office productivity suite -- Spanish language package
+i  libreoffice-l10n-fr - office productivity suite -- French language package
+i  libreoffice-l10n-it - office productivity suite -- Italian language package
+i  libreoffice-l10n-ja - office productivity suite -- Japanese language package
+i  libreoffice-l10n-pt - office productivity suite -- Portuguese language package
+i  libreoffice-l10n-pt-br - office productivity suite -- Portuguese_brazilian language package
+i  libreoffice-l10n-ru - office productivity suite -- Russian language package
+i  libreoffice-l10n-zh-cn - office productivity suite -- Chinese_simplified language package
+i  libreoffice-l10n-zh-tw - office productivity suite -- Chinese_traditional language package
+i  libreoffice-writer - office productivity suite -- word processor
+i  libroken18-heimdal - Heimdal Kerberos - roken support library
+i  libsasl2-2 - Cyrus SASL - authentication abstraction library
+i  libsasl2-modules-db - Cyrus SASL - pluggable authentication modules (DB)
+i  libseccomp2 - high level interface to Linux seccomp filter
+i  libselinux1 - SELinux runtime shared libraries
+i  libsemanage-common - Common files for SELinux policy management libraries
+i  libsemanage1 - SELinux policy management library
+i  libsepol1 - SELinux library for manipulating binary security policies
+i  libslang2 - S-Lang programming library - runtime version
+i  libsmartcols1 - smart column output alignment library
+i  libsodium23 - Network communication, cryptography and signaturing library
+i  libsqlite3-0 - SQLite 3 shared library
+i  libss2 - command-line interface parsing library
+i  libssl1.1 - Secure Sockets Layer toolkit - shared libraries
+i  libstdc++6 - GNU Standard C++ Library v3
+i  libstdc++6:i386 - GNU Standard C++ Library v3
+i  libstemmer0d - Snowball stemming algorithms for use in Information Retrieval
+i  libsystemd0 - systemd utility library
+i  libtasn1-6 - Manage ASN.1 structures (runtime)
+i  libtext-charwidth-perl - get display widths of characters on the terminal
+i  libtext-iconv-perl - module to convert between character sets in Perl
+i  libtext-wrapi18n-perl - internationalized substitute of Text::Wrap
+i  libtinfo5 - shared low-level terminfo library (legacy version)
+i  libtinfo6 - shared low-level terminfo library for terminal handling
+i  libudev1 - libudev shared library
+i  libunistring2 - Unicode string library for C
+i  libuuid1 - Universally Unique ID library
+i  libvdpau-va-gl1 - VDPAU driver with OpenGL/VAAPI backend
+i  libwind0-heimdal - Heimdal Kerberos - stringprep implementation
+i  libxml2 - GNOME XML library
+i  libxml2-utils - XML utilities
+i  libxtables12 - netfilter xtables library
+i  libyaml-0-2 - Fast YAML 1.1 parser and emitter library
+i  libzstd1 - fast lossless compression algorithm
+i  linux-generic - Complete Generic Linux kernel and headers
+i  linux-system76 - System76 recommended Linux kernel
+i  lm-sensors - utilities to read temperature/voltage/fan sensors
+i  locales - GNU C Library: National Language (locale) data [support]
+i  login - system login tools
+i  logrotate - Log rotation utility
+i  logsave - save the output of a command in a log file
+i  lolcat - colorful `cat`
+i  lsb-base - Linux Standard Base init script functionality
+i  lsb-release - Linux Standard Base version reporting utility
+i  lvm2 - Linux Logical Volume Manager
+i  macchanger - utility for manipulating the MAC address of network interfaces
+i  mawk - Pattern scanning and text processing language
+i  mesa-va-drivers - Mesa VA-API video acceleration drivers
+i  mesa-vulkan-drivers - Mesa Vulkan graphics drivers
+i  mime-support - MIME files 'mime.types' & 'mailcap', and support programs
+i  mlocate - quickly find files on the filesystem based on their name
+i  mount - tools for mounting and manipulating filesystems
+i  mplayer - movie player for Unix-like systems
+i  mythes-ar - Arabic Thesaurus for LibreOffice
+i  mythes-de - German Thesaurus for OpenOffice.org/LibreOffice
+i  mythes-de-ch - German Thesaurus for OpenOffice.org/LibreOffice (Swiss Version)
+i  mythes-en-au - Australian English Thesaurus for OpenOffice.org
+i  mythes-en-us - English (USA) Thesaurus for LibreOffice
+i  mythes-es - Spanish Thesaurus for LibreOffice
+i  mythes-fr - French Thesaurus for LibreOffice
+i  mythes-it - Italian Thesaurus for LibreOffice
+i  mythes-pt-pt - Portuguese Thesaurus for LibreOffice
+i  mythes-ru - Russian Thesaurus for LibreOffice
+i  nautilus - file manager and graphical shell for GNOME
+i  nautilus-gtkhash - nautilus extension for computing checksums and more using gtkhash
+i  nautilus-sendto - easily send files via email from within Nautilus
+i  ncurses-base - basic terminal type definitions
+i  ncurses-bin - terminal-related programs and man pages
+i  neofetch - Shows Linux System Information with Distribution Logo
+i  net-tools - NET-3 networking toolkit
+i  netbase - Basic TCP/IP networking system
+i  netcat-openbsd - TCP/IP swiss army knife
+i  netplan.io - YAML network configuration abstraction for various backends
+i  network-manager - network management framework (daemon and userspace tools)
+i  network-manager-config-connectivity-pop - NetworkManager configuration to enable connectivity checking
+i  network-manager-pptp-gnome - network management framework (PPTP plugin GNOME GUI)
+i  networkd-dispatcher - Dispatcher service for systemd-networkd connection status changes
+i  nmap - The Network Mapper
+i  npm - package manager for Node.js
+i  ntfs-3g - read/write NTFS driver for FUSE
+i  numix-icon-theme - Numix icon theme
+i  numix-icon-theme-circle - Numix Circle icons
+i  numix-icon-theme-square - Numix Square icons
+i  nvidia-driver-435 - Transitional package for nvidia-driver-440
+i  openjfx - JavaFX/OpenJFX - Rich client application platform for Java
+i  openjfx-source - JavaFX/OpenJFX - Rich client application platform for Java (sources)
+i  openprinting-ppds - OpenPrinting printer support - PostScript PPD files
+i  openssl - Secure Sockets Layer toolkit - cryptographic utility
+i  orca - Scriptable screen reader
+i  packagekit - Provides a package management service
+i  papirus-folders - This package allows you to change the color of folders
+i  passwd - change and administer password and group data
+i  pcapfix - repairs broken pcap and pcapng files
+i  pcmciautils - PCMCIA utilities for Linux 2.6
+i  pdfcrack - PDF files password cracker
+i  perl-base - minimal Perl system
+i  pinentry-curses - curses-based PIN or pass-phrase entry dialog for GnuPG
+i  playerctl - utility to control media players via MPRIS
+i  policykit-1 - framework for managing administrative policies and privileges
+i  policykit-desktop-privileges - run common desktop actions without password
+i  pop-default-settings - default settings for the Pop desktop
+i  pop-desktop - Pop Desktop Metapackage
+i  pop-gnome-initial-setup - Initial GNOME system setup helper
+i  pop-session - GNOME session for Pop
+i  pop-shop - Fast application store
+i  pop-sound-theme - Pop sound theme
+i  pop-wallpapers - Pop Wallpapers
+i  poppler-data - encoding data for the poppler PDF rendering library
+i  popsicle - USB Flasher
+i  popsicle-gtk - GTK front end to the USB Flasher
+i  powertop - diagnose issues with power consumption and management
+i  ppa-purge - disables a PPA and reverts to official packages
+i  printer-driver-all - printer drivers metapackage
+i  procps - /proc file system utilities
+i  pulseaudio - PulseAudio sound server
+i  python-apt-common - Python interface to libapt-pkg (locales)
+i  python2 - interactive high-level object-oriented language (Python2 version)
+i  python3 - interactive high-level object-oriented language (default python3 version)
+i  python3-apt - Python 3 interface to libapt-pkg
+i  python3-certifi - root certificates for validating SSL certs and verifying TLS hosts (python3)
+i  python3-cffi-backend - Foreign Function Interface for Python 3 calling C code - runtime
+i  python3-chardet - universal character encoding detector for Python3
+i  python3-dbus - simple interprocess messaging system (Python 3 interface)
+i  python3-gi - Python 3 bindings for gobject-introspection libraries
+i  python3-idna - Python IDNA2008 (RFC 5891) handling (Python 3)
+i  python3-minimal - minimal subset of the Python language (default python3 version)
+i  python3-nacl - Python bindings to libsodium (Python 3)
+i  python3-netifaces - portable network interface information - Python 3.x
+i  python3-pip - Python package installer
+i  python3-pkg-resources - Package Discovery and Resource Access using pkg_resources
+i  python3-pymacaroons - Macaroon library for Python 3
+i  python3-requests - elegant and simple HTTP library for Python3, built for human beings
+i  python3-requests-unixsocket - Use requests to talk HTTP via a UNIX domain socket - Python 3.x
+i  python3-six - Python 2 and 3 compatibility library (Python 3 interface)
+i  python3-software-properties - manage the repositories that you install software from
+i  python3-urllib3 - HTTP library with thread-safe connection pooling for Python3
+i  python3-yaml - YAML parser and emitter for Python3
+i  python3.7 - Interactive high-level object-oriented language (version 3.7)
+i  python3.7-minimal - Minimal subset of the Python language (version 3.7)
+i  readline-common - GNU readline and history libraries, common files
+i  reaver - brute force attack tool against Wifi Protected Setup PIN number
+i  resolvconf - name server information handler
+i  rfkill - tool for enabling and disabling wireless devices
+i  rhythmbox - music player and organizer for GNOME
+i  rhythmbox-plugins - plugins for rhythmbox music player
+i  rsyslog - reliable system and kernel logging daemon
+i  ruby - Interpreter of object-oriented scripting language Ruby (default version)
+i  ruby-sass - deprecated CSS compiler - use sassc or ruby-sassc instead
+i  sassc - C/C++ port of the Sass CSS precompiler - command-line tool
+i  seahorse - GNOME front end for GnuPG
+i  secure-delete - tools to wipe files, free disk space, swap and memory
+i  sed - GNU stream editor for filtering/transforming text
+i  sensible-utils - Utilities for sensible alternative selection
+i  sessioninstaller - APT based installer using PackageKit's session DBus API
+i  shared-mime-info - FreeDesktop.org shared MIME database and spec
+i  shotwell - digital photo organizer
+i  simple-scan - Simple Scanning Utility
+i  software-properties-common - manage the repositories that you install software from (common)
+i  sound-theme-freedesktop - freedesktop.org sound theme
+i  sox - Swiss army knife of sound processing
+i  speedtest-cli - Command line interface for testing internet bandwidth using speedtest.net
+i  sqlmap - automatic SQL injection tool
+i  steghide - steganography hiding tool
+i  sublime-text - Sublime Text is a sophisticated text editor for code, markup and prose
+i  sudo - Provide limited super user privileges to specific users
+i  synaptic - Graphical package manager
+i  system-config-printer - graphical interface to configure the printing system
+i  system76-acpi-dkms - System76 ACPI Driver (DKMS)
+i  system76-dkms - System76 DKMS driver
+i  system76-io-dkms - System76 Io DKMS driver
+i  system76-wallpapers - System76 Wallpapers
+i  systemd - system and service manager
+i  systemd-sysv - system and service manager - SysV links
+i  sysvinit-utils - System-V-like utilities
+i  tar - GNU version of the tar archiving utility
+i  tcpxtract - extract files from network traffic based on file signatures
+i  teams - Microsoft Teams for Linux is your chat-centered workspace in Office 365.
+i  telegram-desktop - fast and secure messaging application
+i  tlp - Save battery power on laptops
+i  tlp-rdw - Radio device wizard
+i  tor - anonymizing overlay network for TCP
+i  torbrowser-launcher - helps download and run the Tor Browser Bundle
+i  totem - Simple media player for the GNOME desktop based on GStreamer
+i  ttf-mscorefonts-installer - Installer for Microsoft TrueType core fonts
+i  tzdata - time zone and daylight-saving time data
+i  ubuntu-advantage-tools - management tools for Ubuntu Advantage
+i  ubuntu-drivers-common - Detect and install additional Ubuntu driver packages
+i  ubuntu-keyring - GnuPG keys of the Ubuntu archive
+i  ubuntu-standard - The Ubuntu standard system
+i  ubuntu-wallpapers - Ubuntu Wallpapers
+i  ucf - Update Configuration File(s): preserve user changes to config files
+i  udev - /dev/ and hotplug management daemon
+i  util-linux - miscellaneous system utilities
+i  vdpau-driver-all - Video Decode and Presentation API for Unix (driver metapackage)
+i  vim-gtk3 - Vi IMproved - enhanced vi editor - with GTK3 GUI
+i  vino - VNC server for GNOME
+i  vlc - multimedia player and streamer
+i  vlc-plugin-access-extra - multimedia player and streamer (extra access plugins)
+i  vlc-plugin-vlsub - VLC extension to download subtitles from opensubtitles.org
+i  wamerican - American English dictionary words for /usr/share/dict
+i  wbrazilian - Brazilian Portuguese wordlist
+i  wbritish - British English dictionary words for /usr/share/dict
+i  wfrench - French dictionary words for /usr/share/dict
+i  whiptail - Displays user-friendly dialog boxes from shell scripts
+i  wireless-tools - Tools for manipulating Linux Wireless Extensions
+i  wireshark-qt - network traffic analyzer - Qt version
+i  witalian - Italian dictionary words for /usr/share/dict/
+i  wngerman - New German orthography wordlist
+i  wogerman - Traditional German wordlist
+i  wportuguese - European Portuguese wordlist
+i  wspanish - Spanish dictionary words for /usr/share/dict
+i  wswiss - Swiss (German) orthography wordlist
+i  xdg-user-dirs - tool to manage well known user directories
+i  xdg-user-dirs-gtk - tool to manage well known user directories (Gtk extension)
+i  xdg-utils - desktop integration utilities from freedesktop.org
+i  xdotool - simulate (generate) X11 keyboard/mouse input events
+i  xkb-data - X Keyboard Extension (XKB) configuration data
+i  xorg - X.Org X Window System
+i  xxd - tool to make (or reverse) a hex dump
+i  xz-utils - XZ-format compression utilities
+i  yaru-theme-gnome-shell - Yaru GNOME Shell desktop theme from the Ubuntu Community
+i  yaru-theme-gtk - Yaru GTK theme from the Ubuntu Community
+i  yaru-theme-icon - Yaru icon theme from the Ubuntu Community
+i  yaru-theme-sound - Yaru sound theme from the Ubuntu Community
+i  yelp - Help browser for GNOME
+i  zenity - Display graphical dialog boxes from shell scripts
+i  zlib1g - compression library - runtime

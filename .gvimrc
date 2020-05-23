@@ -1,0 +1,50 @@
+set autoindent
+set history=200
+set number
+set syntax=java
+set background=dark
+set hlsearch
+set ruler
+set textmode
+set cindent
+set incsearch
+set scroll=12
+colorscheme torte
+set ttimeout
+set cinoptions=j1
+set langnoremap
+set scrolloff=5
+set ttimeoutlen=100
+set display=truncate
+set nolangremap
+set shiftwidth=4
+set ttyfast
+set fileformat=dos
+set nomodeline
+set showcmd
+set wildmenu
+set filetype=java
+set mouse=a
+set softtabstop=4
+set helplang=en
+set nrformats=bin,hex
+set suffixesadd=.java
+set backspace=indent,eol,start
+set fileencoding=utf-8
+set fileencodings=ucs-bom,utf-8,default,latin1
+set formatoptions=croql
+if has("gui_running")
+  if has("gui_gtk3")
+    set guifont=Fira\ Code\ Retina\ 13
+  elseif has("gui_macvim")
+    set guifont=Menlo\ Regular:h14
+  elseif has("gui_win32")
+    set guifont=Consolas:h11:cANSI
+  endif
+endif
+set includeexpr=substitute(v:fname,'\.','/','g')
+set indentexpr=GetJavaIndent()
+set indentkeys=0{,0},0),0],:,0#,!^F,o,O,e,0=extends,0=implements
+set printoptions=paper:a4
+set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.ilg,.inx,.out,.toc,.class
+set termencoding=utf-8

@@ -1,0 +1,5 @@
+[
+	{ "keys": ["f5"], "command": "build" },
+	{ "keys": ["ctrl+shift+v"], "command": "paste" },
+	{ "keys": ["ctrl+v"], "command": "paste_and_indent" }
+]
