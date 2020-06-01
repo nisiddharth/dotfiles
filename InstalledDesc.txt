@@ -10,7 +10,6 @@ Install Teams, Chrome, Code, Burpsuite, using there official packages
 Important PPAs:
 sudo add-apt-repository ppa:system76/pop
 sudo add-apt-repository ppa:numix/ppa
-sudo add-apt-repository ppa:i2p-maintainers/i2p
 
 ------------------------------------------------------------------------
 
@@ -28,6 +27,8 @@ i  apt - commandline package manager
 i  apt-transport-https - transitional package for https support
 i  apt-utils - package management related utility programs
 i  aptitude - terminal-based package manager
+i  audacity - fast, cross-platform audio editor
+i  autojump - shell extension to jump to frequently used directories
 i  avahi-autoipd - Avahi IPv4LL network address configuration daemon
 i  avahi-daemon - Avahi mDNS/DNS-SD daemon
 i  baobab - GNOME disk usage analyzer
@@ -45,12 +46,14 @@ i  bzip2 - high-quality block-sorting file compressor - utilities
 i  bzr - transitional dummy package for brz
 i  ca-certificates - Common CA certificates
 i  caca-utils - text mode graphics utilities
+i  catimg - fast image printing in to your terminal
 i  checkinstall - installation tracker
 i  cheese - tool to take pictures and videos from your webcam
 i  chrome-gnome-shell - GNOME Shell extensions integration for web browsers
 i  cmatrix - simulates the display from "The Matrix"
 i  code - Code editing. Redefined.
 i  com.github.donadigo.eddy - Eddy
+i  command-not-found - Suggest installation of packages in interactive bash sessions
 i  console-setup - console font and keymap setup program
 i  console-setup-linux - Linux specific part of console-setup
 i  copyq - Advanced clipboard manager with editing and scripting features
@@ -64,6 +67,7 @@ i  curl - command line tool for transferring data with URL syntax
 i  dash - POSIX-compliant shell
 i  dbus - simple interprocess messaging system (daemon and utilities)
 i  dbus-user-session - simple interprocess messaging system (systemd --user integration)
+i  dconf-cli - simple configuration storage system - utilities
 i  dconf-editor - simple configuration storage system - graphical editor
 i  debconf - Debian configuration management system
 i  debconf-i18n - full internationalization support for debconf
@@ -105,6 +109,7 @@ i  firefox-locale-zh-hant - Traditional Chinese language pack for Firefox
 i  fonts-arabeyes - Arabeyes GPL TrueType Arabic fonts
 i  fonts-arphic-ukai - "AR PL UKai" Chinese Unicode TrueType font collection Kaiti style
 i  fonts-arphic-uming - "AR PL UMing" Chinese Unicode TrueType font collection Mingti style
+i  fonts-cascadia-code - monospaced font designed to enhance appearance of Windows Terminal
 i  fonts-dejavu-core - Vera font family derivate with additional characters
 i  fonts-firacode - Monospaced font with programming ligatures
 i  fonts-freefont-ttf - Freefont Serif, Sans and Mono Truetype fonts
@@ -124,6 +129,7 @@ i  fwupdate - Transitional package for fwupd
 i  gcc-9-base - GCC, the GNU Compiler Collection (base package)
 i  gdb - GNU Debugger
 i  gdm3 - GNOME Display Manager
+i  geany - fast and lightweight IDE
 i  gedit - official text editor of the GNOME desktop environment
 i  gedit-plugins - set of plugins for gedit
 i  ghostscript-x - interpreter for the PostScript language and for PDF - X11 support
@@ -239,8 +245,6 @@ i  hyphen-it - Italian hyphenation patterns
 i  hyphen-pt-br - Brazilian Portuguese hyphenation patterns
 i  hyphen-pt-pt - Portuguese hyphenation patterns
 i  hyphen-ru - Russian hyphenation patterns for LibreOffice/OpenOffice.org
-i  i2p - Invisible Internet Project (I2P) - anonymous network
-i  i2p-keyring - GnuPG keys of the I2P package repository
 i  ibus-chewing - Chewing engine for IBus
 i  ibus-libpinyin - Intelligent Pinyin engine based on libpinyin for IBus
 i  ibus-table - table engine for IBus
@@ -250,6 +254,7 @@ i  ibus-table-quick-classic - ibus-table input method: Quick Classic
 i  ibus-table-wubi - ibus-table input method: Wubi
 i  idle - IDE for Python using Tkinter (default version)
 i  ifupdown - high level tools to configure network interfaces
+i  imagemagick-6.q16 - image manipulation programs -- quantum depth Q16
 i  init - metapackage ensuring an init system is installed
 i  init-system-helpers - helper tools for all init systems
 i  inputattach - utility to connect serial-attached peripherals to the input subsystem
@@ -261,10 +266,10 @@ i  isc-dhcp-common - common manpages relevant to all of the isc-dhcp packages
 i  iso-codes - ISO language, territory, currency, script codes and their translations
 i  jupyter-core - Core common functionality of Jupyter projects (tools)
 i  jupyter-notebook - Jupyter interactive notebook
-i  kali-anonsurf - Parrot stealth and anon scripts, ported to work with Kali Linux
 i  kbd - Linux console font and keytable utilities
 i  kernelstub - Automatic kernel efistub manager for UEFI
 i  keyboard-configuration - system-wide keyboard preferences
+i  kitty - fast, featureful, GPU based terminal emulator
 i  kmod - tools for managing Linux kernel modules
 i  language-pack-ar - translation updates for language Arabic
 i  language-pack-de - translation updates for language German
@@ -483,7 +488,6 @@ i  mesa-vulkan-drivers - Mesa Vulkan graphics drivers
 i  mime-support - MIME files 'mime.types' & 'mailcap', and support programs
 i  mlocate - quickly find files on the filesystem based on their name
 i  mount - tools for mounting and manipulating filesystems
-i  mplayer - movie player for Unix-like systems
 i  mythes-ar - Arabic Thesaurus for LibreOffice
 i  mythes-de - German Thesaurus for OpenOffice.org/LibreOffice
 i  mythes-de-ch - German Thesaurus for OpenOffice.org/LibreOffice (Swiss Version)
@@ -515,6 +519,7 @@ i  numix-icon-theme - Numix icon theme
 i  numix-icon-theme-circle - Numix Circle icons
 i  numix-icon-theme-square - Numix Square icons
 i  nvidia-driver-435 - Transitional package for nvidia-driver-440
+i  obs-studio - recorder and streamer for live video content
 i  openjfx - JavaFX/OpenJFX - Rich client application platform for Java
 i  openjfx-source - JavaFX/OpenJFX - Rich client application platform for Java (sources)
 i  openprinting-ppds - OpenPrinting printer support - PostScript PPD files
@@ -581,7 +586,6 @@ i  ruby - Interpreter of object-oriented scripting language Ruby (default versio
 i  ruby-sass - deprecated CSS compiler - use sassc or ruby-sassc instead
 i  sassc - C/C++ port of the Sass CSS precompiler - command-line tool
 i  seahorse - GNOME front end for GnuPG
-i  secure-delete - tools to wipe files, free disk space, swap and memory
 i  sed - GNU stream editor for filtering/transforming text
 i  sensible-utils - Utilities for sensible alternative selection
 i  sessioninstaller - APT based installer using PackageKit's session DBus API
@@ -611,10 +615,10 @@ i  teams - Microsoft Teams for Linux is your chat-centered workspace in Office 3
 i  telegram-desktop - fast and secure messaging application
 i  tlp - Save battery power on laptops
 i  tlp-rdw - Radio device wizard
-i  tor - anonymizing overlay network for TCP
 i  torbrowser-launcher - helps download and run the Tor Browser Bundle
 i  totem - Simple media player for the GNOME desktop based on GStreamer
 i  ttf-mscorefonts-installer - Installer for Microsoft TrueType core fonts
+i  tuxtype - Educational Typing Tutor Game Starring Tux
 i  tzdata - time zone and daylight-saving time data
 i  ubuntu-advantage-tools - management tools for Ubuntu Advantage
 i  ubuntu-drivers-common - Detect and install additional Ubuntu driver packages
@@ -627,14 +631,14 @@ i  util-linux - miscellaneous system utilities
 i  vdpau-driver-all - Video Decode and Presentation API for Unix (driver metapackage)
 i  vim-gtk3 - Vi IMproved - enhanced vi editor - with GTK3 GUI
 i  vino - VNC server for GNOME
-i  vlc - multimedia player and streamer
 i  vlc-plugin-access-extra - multimedia player and streamer (extra access plugins)
-i  vlc-plugin-vlsub - VLC extension to download subtitles from opensubtitles.org
+i  vnstat - console-based network traffic monitor
 i  wamerican - American English dictionary words for /usr/share/dict
 i  wbrazilian - Brazilian Portuguese wordlist
 i  wbritish - British English dictionary words for /usr/share/dict
 i  wfrench - French dictionary words for /usr/share/dict
 i  whiptail - Displays user-friendly dialog boxes from shell scripts
+i  whois - intelligent WHOIS client
 i  wireless-tools - Tools for manipulating Linux Wireless Extensions
 i  wireshark-qt - network traffic analyzer - Qt version
 i  witalian - Italian dictionary words for /usr/share/dict/
@@ -658,3 +662,4 @@ i  yaru-theme-sound - Yaru sound theme from the Ubuntu Community
 i  yelp - Help browser for GNOME
 i  zenity - Display graphical dialog boxes from shell scripts
 i  zlib1g - compression library - runtime
+i  zsh - shell with lots of features
