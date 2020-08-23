@@ -1,6 +1,5 @@
 %YAML 1.2
 ---
-# http://www.sublimetext.com/docs/3/syntax.html
 name: Plain Text (Image)
 hidden: true
 file_extensions: ['emf', 'jp2', 'pnm', 'ppm', 'tga', 'tif', 'tiff', 'webp', 'xbm', 'xpm']

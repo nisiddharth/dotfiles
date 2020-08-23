@@ -1,11 +1,10 @@
 {
 	"folder_history":
 	[
-		"/mnt/Fast/Codes/Today",
-		"/mnt/Windows/Users/nisid/Desktop/Code"
+		"/mnt/Storage/Codes/Today"
 	],
 	"last_version": 3211,
-	"last_window_id": 14,
+	"last_window_id": 10,
 	"log_indexing": false,
 	"settings":
 	{
@@ -16,14 +15,6 @@
 			{
 				"selected_items":
 				[
-					[
-						"toChar",
-						"toCharArray()\tfunc"
-					],
-					[
-						"nextIn",
-						"nextInt()\tfunc"
-					]
 				]
 			},
 			"build_system_choices":
@@ -37,43 +28,11 @@
 				"selected_items":
 				[
 					[
-						"mono",
-						"Monokai Pro: select theme"
-					],
-					[
-						"Package Control: ins",
+						"Package Control: ",
 						"Package Control: Install Package"
-					],
-					[
-						"Package Control: remove",
-						"Package Control: Remove Package"
-					],
-					[
-						"Package Control: insta",
-						"Package Control: Install Package"
-					],
-					[
-						"package",
-						"Preferences: Browse Packages"
-					],
-					[
-						"menu",
-						"View: Toggle Menu"
 					],
 					[
 						"install",
-						"Package Control: Install Package"
-					],
-					[
-						"Package Control: ",
-						"Package Control: Discover Packages"
-					],
-					[
-						"Package Control: in",
-						"Package Control: Install Package"
-					],
-					[
-						"Package Control: inst",
 						"Package Control: Install Package"
 					]
 				],
@@ -97,22 +56,12 @@
 			},
 			"file_history":
 			[
-				"/mnt/Fast/Codes/Today/Today1.cpp",
-				"/mnt/Fast/Codes/Today/Today1.java",
-				"/mnt/Fast/Codes/Today/Today.cpp",
-				"/mnt/Fast/Codes/Today/input.txt",
-				"/mnt/Windows/Users/nisid/Desktop/Code/output.txt",
-				"/mnt/Windows/Users/nisid/Desktop/Code/Today.cpp",
-				"/mnt/Windows/Users/nisid/Desktop/Code/Today.java",
-				"/mnt/Windows/Users/nisid/Desktop/Code/input.txt",
-				"/mnt/Windows/Users/nisid/Desktop/Code/error.txt",
-				"/mnt/Windows/Users/nisid/Desktop/Code/Today1.java",
-				"/home/nishchal/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-				"/home/nishchal/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+				"/home/nishchal/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+				"/home/nishchal/.config/sublime-text-3/Packages/User/Side Bar.sublime-settings"
 			],
 			"find":
 			{
-				"height": 33.0
+				"height": 43.0
 			},
 			"find_in_files":
 			{
@@ -123,15 +72,9 @@
 			},
 			"find_state":
 			{
-				"case_sensitive": true,
+				"case_sensitive": false,
 				"find_history":
 				[
-					"n, m, ",
-					"min",
-					"max",
-					"float",
-					"int",
-					"Math.pow"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -139,12 +82,6 @@
 				"regex": false,
 				"replace_history":
 				[
-					"",
-					"Math.min",
-					"Math.max",
-					"double",
-					"ll",
-					"(int)Math.pow"
 				],
 				"reverse": false,
 				"show_context": true,
@@ -154,25 +91,25 @@
 			},
 			"incremental_find":
 			{
-				"height": 33.0
+				"height": 30.0
 			},
 			"input":
 			{
-				"height": 46.0
+				"height": 0.0
 			},
 			"menu_visible": true,
-			"output.exec":
+			"output.SublimeLinter":
 			{
-				"height": 36.0
+				"height": 0.0
 			},
 			"output.find_results":
 			{
 				"height": 0.0
 			},
-			"pinned_build_system": "Packages/User/RunJava.sublime-build",
+			"pinned_build_system": "Packages/User/Run Java.sublime-build",
 			"replace":
 			{
-				"height": 76.0
+				"height": 56.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -186,12 +123,12 @@
 			},
 			"select_project":
 			{
-				"height": 500.0,
+				"height": 0.0,
 				"last_filter": "",
 				"selected_items":
 				[
 				],
-				"width": 380.0
+				"width": 0.0
 			},
 			"select_symbol":
 			{
@@ -206,7 +143,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 212.0,
+			"side_bar_width": 249.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
@@ -222,102 +159,32 @@
 			{
 				"selected_items":
 				[
-					[
-						"toChar",
-						"toCharArray()\tfunc"
-					],
-					[
-						"nextIn",
-						"nextInt()\tfunc"
-					]
 				]
 			},
 			"buffers":
 			[
 				{
-					"file": "/mnt/Fast/Codes/Today/Today.java",
+					"file": "/mnt/Storage/Codes/Today/input.txt",
 					"settings":
 					{
-						"buffer_size": 3965,
+						"buffer_size": 104,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
 				},
 				{
-					"file": "/mnt/Fast/Codes/Today/Today1.java",
+					"file": "/mnt/Storage/Codes/Today/output.txt",
 					"settings":
 					{
-						"buffer_size": 4114,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/mnt/Fast/Codes/Today/Today2.cpp",
-					"settings":
-					{
-						"buffer_size": 666,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/mnt/Fast/Codes/Today/Today1.cpp",
-					"settings":
-					{
-						"buffer_size": 2271,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/mnt/Fast/Codes/Today/Today.cpp",
-					"settings":
-					{
-						"buffer_size": 4023,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/mnt/Fast/Codes/Today/Today2.java",
-					"settings":
-					{
-						"buffer_size": 3664,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/mnt/Fast/Codes/Today/RAAM.java",
-					"settings":
-					{
-						"buffer_size": 3662,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/mnt/Fast/Codes/Today/input.txt",
-					"settings":
-					{
-						"buffer_size": 91,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/mnt/Fast/Codes/Today/output.txt",
-					"settings":
-					{
-						"buffer_size": 0,
+						"buffer_size": 90,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/mnt/Fast/Codes/Today/error.txt",
+					"file": "/mnt/Storage/Codes/Today/error.txt",
 					"settings":
 					{
-						"buffer_size": 387,
+						"buffer_size": 0,
 						"line_ending": "Unix"
 					}
 				}
@@ -334,43 +201,11 @@
 				"selected_items":
 				[
 					[
-						"mono",
-						"Monokai Pro: select theme"
-					],
-					[
-						"Package Control: ins",
-						"Package Control: Install Package"
-					],
-					[
-						"Package Control: remove",
+						"Package Control: ",
 						"Package Control: Remove Package"
 					],
 					[
-						"Package Control: insta",
-						"Package Control: Install Package"
-					],
-					[
-						"package",
-						"Preferences: Browse Packages"
-					],
-					[
-						"menu",
-						"View: Toggle Menu"
-					],
-					[
 						"install",
-						"Package Control: Install Package"
-					],
-					[
-						"Package Control: ",
-						"Package Control: Discover Packages"
-					],
-					[
-						"Package Control: in",
-						"Package Control: Install Package"
-					],
-					[
-						"Package Control: inst",
 						"Package Control: Install Package"
 					]
 				],
@@ -394,26 +229,23 @@
 			},
 			"expanded_folders":
 			[
-				"/mnt/Fast/Codes/Today"
+				"/mnt/Storage/Codes/Today"
 			],
 			"file_history":
 			[
-				"/mnt/Fast/Codes/Today/Today1.java",
-				"/mnt/Fast/Codes/Today/Today1.cpp",
-				"/mnt/Fast/Codes/Today/Today.cpp",
-				"/mnt/Fast/Codes/Today/input.txt",
-				"/mnt/Windows/Users/nisid/Desktop/Code/output.txt",
-				"/mnt/Windows/Users/nisid/Desktop/Code/Today.cpp",
-				"/mnt/Windows/Users/nisid/Desktop/Code/Today.java",
-				"/mnt/Windows/Users/nisid/Desktop/Code/input.txt",
-				"/mnt/Windows/Users/nisid/Desktop/Code/error.txt",
-				"/mnt/Windows/Users/nisid/Desktop/Code/Today1.java",
-				"/home/nishchal/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-				"/home/nishchal/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+				"/home/nishchal/.config/sublime-text-3/Packages/User/Run C++.sublime-build",
+				"/mnt/Storage/Codes/Today/Today2.cpp",
+				"/home/nishchal/.config/sublime-text-3/Packages/User/Run Java.sublime-build",
+				"/mnt/Storage/Codes/Today/Today2.java",
+				"/mnt/Storage/Codes/Today/Today1.java",
+				"/mnt/Storage/Codes/Today/Today.java",
+				"/mnt/Storage/Codes/Today/InternPrac/CloneTest.java",
+				"/home/nishchal/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+				"/home/nishchal/.config/sublime-text-3/Packages/User/Side Bar.sublime-settings"
 			],
 			"find":
 			{
-				"height": 33.0
+				"height": 43.0
 			},
 			"find_in_files":
 			{
@@ -424,15 +256,9 @@
 			},
 			"find_state":
 			{
-				"case_sensitive": true,
+				"case_sensitive": false,
 				"find_history":
 				[
-					"n, m, ",
-					"min",
-					"max",
-					"float",
-					"int",
-					"Math.pow"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -440,12 +266,6 @@
 				"regex": false,
 				"replace_history":
 				[
-					"",
-					"Math.min",
-					"Math.max",
-					"double",
-					"ll",
-					"(int)Math.pow"
 				],
 				"reverse": false,
 				"show_context": true,
@@ -456,209 +276,46 @@
 			"folders":
 			[
 				{
-					"path": "/mnt/Fast/Codes/Today"
+					"path": "/mnt/Storage/Codes/Today"
 				}
 			],
 			"groups":
 			[
+				{
+					"sheets":
+					[
+					]
+				},
 				{
 					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/mnt/Fast/Codes/Today/Today.java",
+							"file": "/mnt/Storage/Codes/Today/input.txt",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 3965,
+								"buffer_size": 104,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										540,
-										540
+										1,
+										1
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Java/Java.sublime-syntax"
+									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/mnt/Fast/Codes/Today/Today1.java",
-							"semi_transient": true,
-							"settings":
-							{
-								"buffer_size": 4114,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Java/Java.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/mnt/Fast/Codes/Today/Today2.cpp",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 666,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										527,
-										527
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 5,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/mnt/Fast/Codes/Today/Today1.cpp",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 2271,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										23,
-										23
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 4,
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "/mnt/Fast/Codes/Today/Today.cpp",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 4023,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										117,
-										117
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 5,
-							"file": "/mnt/Fast/Codes/Today/Today2.java",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 3664,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Java/Java.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 7,
-							"type": "text"
-						},
-						{
-							"buffer": 6,
-							"file": "/mnt/Fast/Codes/Today/RAAM.java",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 3662,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1277,
-										1277
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Java/Java.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 6,
 							"type": "text"
 						}
 					]
@@ -668,20 +325,20 @@
 					"sheets":
 					[
 						{
-							"buffer": 7,
-							"file": "/mnt/Fast/Codes/Today/input.txt",
+							"buffer": 1,
+							"file": "/mnt/Storage/Codes/Today/output.txt",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 91,
+								"buffer_size": 90,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										91,
-										91
+										0,
+										0
 									]
 								],
 								"settings":
@@ -689,7 +346,7 @@
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 231.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 1,
@@ -702,8 +359,8 @@
 					"sheets":
 					[
 						{
-							"buffer": 8,
-							"file": "/mnt/Fast/Codes/Today/output.txt",
+							"buffer": 2,
+							"file": "/mnt/Storage/Codes/Today/error.txt",
 							"semi_transient": false,
 							"settings":
 							{
@@ -726,41 +383,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 8,
-							"type": "text"
-						}
-					]
-				},
-				{
-					"selected": 0,
-					"sheets":
-					[
-						{
-							"buffer": 9,
-							"file": "/mnt/Fast/Codes/Today/error.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 387,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 9,
+							"stack_index": 2,
 							"type": "text"
 						}
 					]
@@ -768,11 +391,11 @@
 			],
 			"incremental_find":
 			{
-				"height": 33.0
+				"height": 30.0
 			},
 			"input":
 			{
-				"height": 46.0
+				"height": 0.0
 			},
 			"layout":
 			{
@@ -806,32 +429,36 @@
 				"cols":
 				[
 					0.0,
-					0.703793734044,
+					0.743844032858,
 					1.0
 				],
 				"rows":
 				[
 					0.0,
-					0.382175362987,
-					0.641803295582,
+					0.333333333333,
+					0.666666666667,
 					1.0
 				]
 			},
 			"menu_visible": true,
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
 			"output.exec":
 			{
-				"height": 36.0
+				"height": 35.0
 			},
 			"output.find_results":
 			{
 				"height": 0.0
 			},
-			"pinned_build_system": "Packages/User/RunJava.sublime-build",
+			"pinned_build_system": "Packages/User/Run C++.sublime-build",
 			"position": "0,1,0,0,0,0,0,0,0,1920,1080",
 			"project": "",
 			"replace":
 			{
-				"height": 76.0
+				"height": 56.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -845,12 +472,12 @@
 			},
 			"select_project":
 			{
-				"height": 500.0,
+				"height": 0.0,
 				"last_filter": "",
 				"selected_items":
 				[
 				],
-				"width": 380.0
+				"width": 0.0
 			},
 			"select_symbol":
 			{
@@ -896,13 +523,13 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 212.0,
+			"side_bar_width": 249.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 				"max_columns": 2
 			},
-			"window_id": 5,
+			"window_id": 1,
 			"workspace_name": ""
 		}
 	],

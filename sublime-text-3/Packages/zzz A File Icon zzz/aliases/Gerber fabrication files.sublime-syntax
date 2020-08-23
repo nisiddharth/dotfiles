@@ -1,0 +1,10 @@
+%YAML 1.2
+---
+name: Gerber fabrication files
+hidden: true
+file_extensions: ['pcb']
+scope: text.plain.pcb
+contexts:
+  main:
+    - include: scope:text.plain#prototype
+    - include: scope:text.plain

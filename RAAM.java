@@ -3,42 +3,21 @@ import java.util.*;
 
 public class RAAM {
 	static void solve() throws IOException {
+		// TODO
 	}
 
 	public static void main(String args[]) throws IOException {
 		br = new BufferedReader(new InputStreamReader(System.in));
 		out = new PrintWriter(new BufferedOutputStream(System.out));
 		// sieve();
-		int tt = nextInt();
-		// int tt = 1;
+		int tt = 1;
+		tt = nextInt();
 		for(int test = 1; test <= tt; ++test) {
 			// out.print("Case #" + test + ": ");
 			solve();
 		}
 		out.close();
 	}
-
-	// static final int MAXN = 100001;
-	// static int spf[] = new int[MAXN];
-
-	// static void sieve() {
-	// 	spf[1] = 1;
-	// 	for (int i = 2; i < MAXN; i++)
-	// 		spf[i] = i;
-	// 	for (int i = 4; i < MAXN; i += 2)
-	// 		spf[i] = 2;
-
-	// 	for (int i = 3; i * i < MAXN; i++) {
-	// 		if (spf[i] == i) {
-	// 			for (int j = i * i; j < MAXN; j += i)
-	// 				if (spf[j] == j)
-	// 					spf[j] = i;
-	// 		}
-	// 	}
-	// }
-
-	static final long mod = (long) (1e9 + 7);
-	static final int inf = (int) (1e9 + 1);
 
 	static class Pair implements Comparable<Pair> {
 		long first, second;
@@ -65,6 +44,57 @@ public class RAAM {
 			return (int) ((1l * (inf + 1) * this.first + this.second) % mod);
 		}
 	}
+
+	static boolean arraySortedOrNot(int a[], int n) {
+		if (n == 1 || n == 0)
+			return true;
+		if (a[n - 1] < a[n - 2])
+			return false;
+		return arraySortedOrNot(a, n - 1);
+	}
+
+	static void swap(int a[], int i, int j) {
+		int temp = a[i];
+		a[i] = a[j];
+		a[j] = temp;
+	}
+
+	static long binaryExpo(long a, long b) {
+		if(a == 1)
+			return 1;
+		long res = 1;
+		a = a % mod;
+		while(b != 0) {
+			if((b & 1) != 0) {
+				res = (res % mod * a % mod) % mod;
+			}
+			a = (a % mod * a % mod) % mod;
+			b >>= 1;
+		}
+		return res;
+	}
+
+	static boolean isPerfectSquare(long x) {
+		double sr = Math.sqrt(x);
+		return ((sr - Math.floor(sr)) == 0);
+	}
+
+	static long isPowerOfTwo(long n) {
+		if (n == 0)
+			return -1;
+		long count = 0;
+
+		while (n != 1) {
+			++count;
+			if (n % 2 != 0)
+				return -1;
+			n = n / 2;
+		}
+		return count;
+	}
+
+	static final long mod = (long) (1e9 + 7);
+	static final int inf = (int) (1e9 + 1);
 
 	public static int lowerBound(int[] array, int length, int value) {
 		int low = 0;
@@ -180,6 +210,52 @@ public class RAAM {
 			System.out.print(a[i] + " ");
 		System.out.println();
 	}
+
+	static class UnionFind {
+		int[] parents;
+		int count;
+		UnionFind(int n) {
+			parents = new int[n];
+			for(int i = 0; i < n; ++i)
+				parents[i] = i;
+			count = n;
+		}
+
+		int find(int i) {
+			if(parents[i] == i)
+				return i;
+			return parents[i] = find(parents[i]);
+		}
+
+		void union(int i, int j) {
+			int a = find(i);
+			int b = find(j);
+			if(a != b) {
+				parents[a] = b;
+				--count;
+			}
+		}
+	}
+
+
+	// static final int MAXN = 100001;
+	// static int spf[] = new int[MAXN];
+
+	// static void sieve() {
+	// 	spf[1] = 1;
+	// 	for (int i = 2; i < MAXN; i++)
+	// 		spf[i] = i;
+	// 	for (int i = 4; i < MAXN; i += 2)
+	// 		spf[i] = 2;
+
+	// 	for (int i = 3; i * i < MAXN; i++) {
+	// 		if (spf[i] == i) {
+	// 			for (int j = i * i; j < MAXN; j += i)
+	// 				if (spf[j] == j)
+	// 					spf[j] = i;
+	// 		}
+	// 	}
+	// }
 }
 
 /*

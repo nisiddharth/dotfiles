@@ -1,0 +1,34 @@
+{
+    "packages": [
+        {
+            "buy": "https://tinkerwell.app",
+            "description": "Tinker with your PHP projects like never before.",
+            "releases": [
+                {
+                    "url": "https://tinkerwell.app/download/sublime/Tinkerwell.sublime-package",
+                    "platforms": ["osx"],
+                    "date": "2019-11-19 11:15:00",
+                    "version": "1.0.0",
+                    "sublime_text": ">=3000"
+                },
+                {
+                    "url": "https://tinkerwell.app/download/sublime/Tinkerwell-1.1.0.sublime-package",
+                    "date": "2020-03-02 08:42:00",
+                    "version": "1.0.0",
+                    "sublime_text": ">=3000"
+                }
+            ],
+            "author": "Marcel Pociot",
+            "labels": [
+                "php",
+                "Laravel",
+                "scratchpad",
+                "REPL",
+                "testing"
+            ],
+            "homepage": "https://tinkerwell.app",
+            "name": "Tinkerwell"
+        }
+    ],
+    "schema_version": "3.0.0"
+}

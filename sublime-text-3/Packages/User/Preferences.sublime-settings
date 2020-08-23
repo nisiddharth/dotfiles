@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Theme - Monokai Pro/Monokai Pro (Filter Spectrum).sublime-color-scheme",
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
 	"detect_indentation": false,
 	"draw_minimap_border": true,
 	"ensure_newline_at_eof_on_save": true,
@@ -14,6 +14,6 @@
 	[
 		"draw_active"
 	],
-	"theme": "Agila Monokai.sublime-theme",
+	"theme": "Adaptive.sublime-theme",
 	"word_wrap": true
 }

@@ -1,3 +1,0 @@
-{
-    "shell_cmd": "javac --module-path /usr/share/openjfx/lib --add-modules=javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web $file 2> error.txt > output.txt && java --module-path /usr/share/openjfx/lib --add-modules=javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web $file_base_name < input.txt > output.txt 2> error.txt"
-}

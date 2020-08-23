@@ -6,13 +6,13 @@
 	"installed_packages":
 	[
 		"A File Icon",
-		"Agila Theme",
-		"Atomic Color Scheme",
 		"CoolFormat",
 		"JavaIME",
 		"Package Control",
 		"SideBarEnhancements",
-		"Terminal",
-		"Theme - Monokai Pro"
+		"SublimeLinter",
+		"SublimeLinter-cppcheck",
+		"SublimeLinter-javac",
+		"Terminal"
 	]
 }
