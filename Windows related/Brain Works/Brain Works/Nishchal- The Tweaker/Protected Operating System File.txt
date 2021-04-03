@@ -1,0 +1,5 @@
+To create a protected operating system file using Command Line execute the following code:
+
+attrib +s +h <file_name>
+
+To remove the attributes; just replace the '+' sign with a '-' in the above code.

@@ -1,0 +1,3 @@
+To uninstall the Shortcuts open the two files in text editor and note down the registry names from the second Line.
+Then open Run -> regedit.
+Then delete the key Names that you have noted down just now.

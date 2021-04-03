@@ -1,0 +1,2 @@
+adb aircrack-ng binwalk bleachbit caca-utils dosbox file foremost gdb gnuplot-x11 hashcat hydra john macchanger mplayer net-tools netcat-openbsd nmap pcapfix pdfcrack playerctl reaver speedtest-cli sqlmap steghide tcpxtract whois wireshark-qt xdotool
+
