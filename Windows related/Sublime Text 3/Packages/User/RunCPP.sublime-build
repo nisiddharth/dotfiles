@@ -1,3 +1,0 @@
-{
-	"shell_cmd": "g++ -std=c++17 -Wshadow -Wall -o a.exe $file 2> error.txt > output.txt && a.exe < input.txt > output.txt 2> error.txt"
-}
