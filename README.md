@@ -4,7 +4,7 @@ Collection of files (and dotfiles) needed by me every time I set up a new GNU/ L
 
 [APT_Installed.txt](https://github.com/nisiddharth/dotfiles/blob/master/APT_Installed.txt) has list of apt installed packages.
 
-[i8k_configuration.md](https://github.com/nisiddharth/dotfiles/blob/master/i8k_configuration.md) has instructions for how to fix dell laptop fan bios control in linux systems.
+[i8k_configuration.md](https://github.com/nisiddharth/dotfiles/blob/master/i8k_configuration.md) has instructions for how to manually configure dell laptop fan bios control in linux systems.
 
 # More instructions
 
@@ -48,34 +48,7 @@ For zsh-syntax-highlighting:
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-For powerlevel10k to work properly install MesloLGS NF font.
-
-For powerlevel10k using Oh My Zsh:
-
-```bash
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-```
-
-Set powerlevel10k/powerlevel10k as theme in .zshrc.
-
-For powerline-go in bash:
-
-```bash
-apt install golang-go
-go get -u github.com/justjanne/powerline-go
-```
-
-and then add this to .bashrc:
-
-```bash
-function _update_ps1() {
-    PS1="$($GOPATH/bin/powerline-go -error $?)"
-}
-
-if [ "$TERM" != "linux" ] && [ -f "$GOPATH/bin/powerline-go" ]; then
-    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
-fi
-```
+For powerline-go in bash follow README [here](https://github.com/justjanne/powerline-go). (Or rather don't do it. Who uses bash anyway ¯\\_(ツ)_/¯)
 
 ---
 
@@ -87,23 +60,26 @@ sudo aptitude search '~i!~M'			# with description
 sudo apt list --installed				# with description
 ```
 
-<hr>
+---
+
 Install Teams, Burpsuite, WPS Office, Android Studio using there official packages.
-<hr>
 
-Important PPAs:
+---
 
-```bash
-sudo add-apt-repository ppa:system76/pop	# for pop things
-sudo add-apt-repository ppa:numix/ppa	# for numix things
-```
+I install Skype, Spotify, Zoom, KeePassXC, Kdenlive using Flatpak.
+
+---
+
+To enable touchpad gestures while using X11 display manager install [Touchégg](https://github.com/JoseExposito/touchegg). It's a great package, uses libinput.
+
+My current config file for the same can be found [here](./config/touchegg/touchegg.conf).
 
 ---
 
 Sublime Text packages I use:
 
 1. A File Icon
-2. Meetio Theme
+2. Meetio Theme (usually not in Linux)
 3. SideBarEnhancements
 4. LSP
 5. LSP-jdtls
@@ -114,7 +90,7 @@ Sublime Text packages I use:
 
 ---
 
-To overcome emoji problem in chrome (if exists):
+To overcome b/w emoji problem (if exists) in chromium/ google-chrome:
 
 ```bash
 sudo apt reinstall fonts-noto-color-emoji
