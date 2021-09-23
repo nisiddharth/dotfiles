@@ -45,6 +45,9 @@ Researched from:
 	sudo nano /etc/i8kmon.conf
 	```
 	and put the following in it:
+	
+	{% raw %}
+	
 	```
 	# i8kmon configuration file (/etc/i8kmon.conf, ~/.i8kmon).
 
@@ -82,6 +85,8 @@ Researched from:
 
 	# end of file
 	```
+	
+	{% endraw %}
 
 	Remember to replace those {-1 0} things with specific to your laptop. -1 signifies my laptop doesn't have a left fan. If you have both fans put {0 0}, if only right {0 -1}. Refer manpage for more details.
 
