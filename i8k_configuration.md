@@ -1,4 +1,4 @@
-# Dell Inspiron 5593 fan control setup
+# Dell Inspiron fan control setup for Linux
 
 Researched from:
 1. [https://www.cyberciti.biz/faq/controlling-dell-fan-speeds-temperature-on-ubuntu-debian-linux/](https://www.cyberciti.biz/faq/controlling-dell-fan-speeds-temperature-on-ubuntu-debian-linux/)
@@ -46,6 +46,8 @@ Researched from:
 	```
 	and put the following in it:
 	```
+	# i8kmon configuration file (/etc/i8kmon.conf, ~/.i8kmon).
+
 	# Run as daemon, override with --daemon option
 	set config(daemon)      0
 
@@ -53,30 +55,30 @@ Researched from:
 	set config(auto)        1
 
 	# External program to control the fans
-	set config(i8kfan)	/usr/bin/i8kfan
+	set config(i8kfan)      /usr/bin/i8kfan
 
 	# Report status on stdout, override with --verbose option
-	set config(verbose)	1
+	set config(verbose)     0
 
 	# Status check timeout (seconds), override with --timeout option
-	set config(timeout)	5
+	set config(timeout)     5
 
 	# Temperature threshold at which the temperature is displayed in red
-	set config(t_high)	80
+	set config(t_high)      80
 
 	# Temperature thresholds: {fan_speeds low_ac high_ac low_batt high_batt}
-	# These were tested on the Inspiron 5593. If you have a different Dell laptop model
+	# These were tested on the I8000. If you have a different Dell laptop model
 	# you should check the BIOS temperature monitoring and set the appropriate
 	# thresholds here. In doubt start with low values and gradually rise them
 	# until the fans are not always on when the cpu is idle.
-	set config(0)   { {-1 0}  -1  40  -1  40 }
-	set config(1)   { {-1 1}  40  60  40  60 }
-	set config(2)   { {-1 2}  60  128  60  128 }
-	set config(3)   { {-1 2}  60  128  60  128 }
+	set config(0)   {{-1 0}  -1  45  -1  45}
+	set config(1)   {{-1 1}  45  65  45  65}
+	set config(2)   {{-1 2}  65  128  65  128}
+	set config(3)   {{-1 2}  65 128  65 128}
 
 	# Speed values are set here to avoid i8kmon probe them at every time it starts.
-	set status(leftspeed)	"0 1000 2000 3000"
-	set status(rightspeed)	"0 1000 2000 3000"
+	set status(leftspeed)   "0 1000 2000 3000"
+	set status(rightspeed)  "0 1000 2000 3000"
 
 	# end of file
 	```
