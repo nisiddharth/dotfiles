@@ -62,11 +62,11 @@ sudo apt list --installed				# with description
 
 ---
 
-Install Teams, Burpsuite, WPS Office, Android Studio using there official packages.
+Install Teams, Burpsuite, Android Studio, WPS Office (if needed) using there official packages.
 
 ---
 
-I install Skype, Spotify, Zoom, KeePassXC, Kdenlive using Flatpak.
+I install Spotify, Zoom, KeePassXC, Kdenlive using Flatpak.
 
 ---
 

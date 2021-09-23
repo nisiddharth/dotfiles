@@ -1,0 +1,5 @@
+[MS Teams]
+Description=MS Teams
+noborderrule=2
+wmclass=microsoft teams - preview
+wmclassmatch=2
