@@ -2,9 +2,9 @@
 
 Collection of files (and dotfiles) needed by me every time I set up a new GNU/ Linux system (Debian based), also serves as backup.
 
-[APT_Installed.txt](https://github.com/nisiddharth/dotfiles/blob/master/APT_Installed.txt) has list of apt installed packages.
+[APT_Installed.txt](./APT_Installed.txt) has list of apt installed packages.
 
-[i8k_configuration.md](https://github.com/nisiddharth/dotfiles/blob/master/i8k_configuration.md) has instructions for how to manually configure dell laptop fan bios control in linux systems.
+[i8k_configuration.md](./i8k_configuration.md) has instructions for how to manually configure dell laptop fan bios control in linux systems.
 
 # More instructions
 
@@ -72,7 +72,7 @@ I install Spotify, Zoom, KeePassXC, Kdenlive using Flatpak.
 
 To enable touchpad gestures while using X11 display manager install [Touchégg](https://github.com/JoseExposito/touchegg). It's a great package, uses libinput.
 
-My current config file for the same can be found [here](./config/touchegg/touchegg.conf).
+My current config file for the same can be found [here](./.config/touchegg/touchegg.conf).
 
 ---
 
