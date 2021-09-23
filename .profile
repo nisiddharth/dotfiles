@@ -26,7 +26,6 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
-PATH="$PATH:$JAVA_HOME/bin:/home/nishchal/flutter/bin"
-export QT_QPA_PLATFORMTHEME=qt5ct
-
+# if [ -d "$HOME/flutter/bin" ] ; then
+#     PATH="$PATH:$HOME/flutter/bin"
+# fi

@@ -84,6 +84,15 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+# for man page colors
+export LESS_TERMCAP_mb=$'\e[1;32m'
+export LESS_TERMCAP_md=$'\e[1;32m'
+export LESS_TERMCAP_me=$'\e[0m'
+export LESS_TERMCAP_se=$'\e[0m'
+export LESS_TERMCAP_so=$'\e[01;33m'
+export LESS_TERMCAP_ue=$'\e[0m'
+export LESS_TERMCAP_us=$'\e[1;4;31m'
+
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
@@ -93,6 +102,8 @@ alias la='ls -A'
 alias l='ls -CF'
 alias apt='sudo apt'
 alias sl='sl -la'
+alias neofetch="neofetch --cpu_temp"
+alias cmatrix="cmatrix -b"
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -117,3 +128,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# eval "$(thefuck --alias oops)"

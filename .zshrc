@@ -74,6 +74,15 @@ plugins=(zsh-autosuggestions extract zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
+# for man page colors
+export LESS_TERMCAP_mb=$'\e[1;32m'
+export LESS_TERMCAP_md=$'\e[1;32m'
+export LESS_TERMCAP_me=$'\e[0m'
+export LESS_TERMCAP_se=$'\e[0m'
+export LESS_TERMCAP_so=$'\e[01;33m'
+export LESS_TERMCAP_ue=$'\e[0m'
+export LESS_TERMCAP_us=$'\e[1;4;31m'
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -101,5 +110,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias apt="sudo apt"
 alias sl="sl -la"
+alias neofetch="neofetch --cpu_temp"
+alias cmatrix="cmatrix -b"
 
+. $HOME/.profile
 source /etc/zsh_command_not_found
+
+# eval $(thefuck --alias oops)
