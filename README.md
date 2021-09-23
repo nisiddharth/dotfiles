@@ -2,7 +2,7 @@
 
 Collection of files (and dotfiles) needed by me every time I set up a new GNU/ Linux system (Debian based), also serves as backup.
 
-[APT_Installed.txt](./APT_Installed.txt) has list of apt installed packages.
+[APTInstalledDescCleaned.txt](./APTInstalledDescCleaned.txt) has list of apt installed packages.
 
 [i8k_configuration.md](./i8k_configuration.md) has instructions for how to manually configure dell laptop fan bios control in linux systems.
 
