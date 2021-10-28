@@ -1,0 +1,3 @@
+#!/bin/sh -e
+sh '/usr/local/sbin/dell-bios-fan-control/disable-bios-fan-control.sh'
+exit 0
