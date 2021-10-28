@@ -26,6 +26,10 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-# if [ -d "$HOME/flutter/bin" ] ; then
-#     PATH="$PATH:$HOME/flutter/bin"
-# fi
+if [ -d "$HOME/flutter/bin" ] ; then
+    PATH="$PATH:$HOME/flutter/bin"
+fi
+
+if [ -d "$HOME/Android/Sdk/platform-tools" ] ; then
+    ADB="$HOME/Android/Sdk/platform-tools/adb"
+fi
