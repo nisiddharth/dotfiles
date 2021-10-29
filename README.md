@@ -15,7 +15,7 @@ Collection of files (and dotfiles) I need every time I set up a new GNU/ Linux s
 5. Plasma color scheme: [Gruvbox by Adhe](https://www.pling.com/p/1327717/)
 6. Konsole color scheme: [Gruvbox by Adhe](https://www.pling.com/p/1327725/)
 7. Font family: [Noto Sans](https://www.google.com/fonts/specimen/Noto+Sans)
-8. Monospace font: [Cascadia Code PL](https://fonts.google.com/specimen/Cascadia+Code+PL)
+8. Monospace font: [Cascadia Code PL](https://github.com/microsoft/cascadia-code)
 9. Spotify theme: [Onepunch Dark](https://github.com/morpheusthewhite/spicetify-themes/tree/master/Onepunch)
 
 # Others
