@@ -70,18 +70,9 @@ ZSH_THEME="amuse"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(zsh-autosuggestions extract zsh-syntax-highlighting)
+plugins=(zsh-autosuggestions extract zsh-syntax-highlighting colored-man-pages)
 
 source $ZSH/oh-my-zsh.sh
-
-# for man page colors
-export LESS_TERMCAP_mb=$'\e[1;32m'
-export LESS_TERMCAP_md=$'\e[1;32m'
-export LESS_TERMCAP_me=$'\e[0m'
-export LESS_TERMCAP_se=$'\e[0m'
-export LESS_TERMCAP_so=$'\e[01;33m'
-export LESS_TERMCAP_ue=$'\e[0m'
-export LESS_TERMCAP_us=$'\e[1;4;31m'
 
 # User configuration
 
@@ -113,6 +104,9 @@ alias sl="sl -la"
 alias neofetch="neofetch --cpu_temp"
 alias cmatrix="cmatrix -b"
 alias dhammapada="display-dhammapada"
+alias yolo='git commit -m "$(curl -s http://whatthecommit.com/index.txt)" '
+alias weather='curl wttr.in/Varanasi'
+alias copy='xclip -sel c'
 
 . $HOME/.profile
 source /etc/zsh_command_not_found
