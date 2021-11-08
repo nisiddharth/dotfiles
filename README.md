@@ -2,22 +2,6 @@
 
 Collection of files (and dotfiles) I need every time I set up a new GNU/ Linux system (Debian based), also serves as backup.
 
-## Screenshot of current setup
-
-![Screenshot](Screenshot.png)
-
-### UI description:
-
-1. Plasma theme: [Gruvbox by Adhe](https://www.pling.com/p/1327719/)
-2. Plasma L&F: [Gruvbox by Adhe](https://www.pling.com/p/1327723/)
-3. Plasma Aurorae: [Gruvbox by Adhe](https://www.pling.com/p/1327718/)
-4. Icon theme: [Gruvbox by Adhe](https://www.pling.com/p/1327720/) with some additional icons.
-5. Plasma color scheme: [Gruvbox by Adhe](https://www.pling.com/p/1327717/)
-6. Konsole color scheme: [Gruvbox by Adhe](https://www.pling.com/p/1327725/)
-7. Font family: [Noto Sans](https://www.google.com/fonts/specimen/Noto+Sans)
-8. Monospace font: [Cascadia Code PL](https://github.com/microsoft/cascadia-code)
-9. Spotify theme: [Onepunch Dark](https://github.com/morpheusthewhite/spicetify-themes/tree/master/Onepunch)
-
 # Others
 
 [APTInstalledDescCleaned.txt](./APTInstalledDescCleaned.txt) has list of apt installed packages.
