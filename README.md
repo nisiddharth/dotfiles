@@ -2,13 +2,13 @@
 
 Collection of files (and dotfiles) I need every time I set up a new GNU/ Linux system (Debian based), also serves as backup.
 
-# Others
+## Packages
 
 [APTInstalledDescCleaned.txt](./APTInstalledDescCleaned.txt) has list of apt installed packages.
 
 [i8k_configuration.md](./i8k_configuration.md) has instructions for how to manually configure dell laptop fan bios control in linux systems.
 
-# More instructions
+## More instructions
 
 For `tilix` integration in `nautilus`:
 
