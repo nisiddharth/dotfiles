@@ -5,8 +5,8 @@ Collection of files (and dotfiles) I need every time I set up a new GNU/ Linux s
 ## Desktop Environment: KDE Plasma
 
 <p float="left">
-  <img src="screenshots/Screenshot_1.png" width="45%" />
-  <img src="screenshots/Screenshot_2.png" width="45%" />
+  <img src="screenshots/Screenshot_1.png" width="47%" />
+  <img src="screenshots/Screenshot_2.png" width="47%" />
 </p>
 
 Find desktop configuration details [here](desktop_config.md).
