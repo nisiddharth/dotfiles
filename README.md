@@ -21,7 +21,7 @@ Find desktop configuration details [here](desktop_config.md).
 
 ## More instructions
 
-For `tilix` integration in `nautilus`:
+For `tilix` integration in `nautilus` (in case using GTK based DE):
 
 [https://askubuntu.com/questions/1138673/is-filemanager-actions-working-with-19-04/1138682#1138682](https://askubuntu.com/questions/1138673/is-filemanager-actions-working-with-19-04/1138682#1138682)
 and
@@ -75,7 +75,7 @@ sudo apt list --installed				# with description
 
 ---
 
-Install Teams, Burpsuite, Android Studio, WPS Office (if needed) using there official packages.
+Install Teams, Zoom, Spotify, Microsoft Edge, Google Chrome, Burpsuite, Android Studio, WPS Office (if needed) using their official packages.
 
 ---
 
