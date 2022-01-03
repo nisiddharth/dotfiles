@@ -104,9 +104,6 @@ alias apt='sudo apt'
 alias sl='sl -la'
 alias neofetch="neofetch --cpu_temp"
 alias cmatrix="cmatrix -b"
-alias yolo='git commit -m "$(curl -s http://whatthecommit.com/index.txt)" '
-alias weather='curl wttr.in/Varanasi'
-alias copy='xclip -sel c'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -131,5 +128,3 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-# eval "$(thefuck --alias oops)"

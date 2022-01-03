@@ -2,6 +2,17 @@
 
 Collection of files (and dotfiles) I need every time I set up a new GNU/ Linux system (Debian based), also serves as backup.
 
+## Desktop Environment: KDE Plasma
+
+<p float="left">
+  <img src="screenshots/Screenshot_1.png" width="45%" />
+  <img src="screenshots/Screenshot_2.png" width="45%" />
+</p>
+
+Find desktop configuration details [here](desktop_config.md).
+
+<i> All wallpapers are sourced from [r/wallpapers](https://www.reddit.com/r/wallpapers/). No copyright infringement intended. You can ask me to remove them if you want.</i>
+
 ## Packages
 
 [APTInstalledDescCleaned.txt](./APTInstalledDescCleaned.txt) has list of apt installed packages.
@@ -68,7 +79,7 @@ Install Teams, Burpsuite, Android Studio, WPS Office (if needed) using there off
 
 ---
 
-I install Spotify, Zoom, KeePassXC, Kdenlive using Flatpak.
+I install Touché, KeePassXC, Pitivi using Flatpak.
 
 ---
 
