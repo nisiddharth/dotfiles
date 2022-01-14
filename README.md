@@ -15,7 +15,7 @@ Find desktop configuration details [here](desktop_config.md).
 
 ## Packages
 
-[APTInstalledDescCleaned.txt](./APTInstalledDescCleaned.txt) has list of apt installed packages.
+[apt_installed.txt](./apt_installed.txt) has list of APT packages needed to be installed. [apt_for_ctf.txt] has list of APT packages needed to be installed if installation will be used to play CTFs (and isn't Kali/Parrot).
 
 [i8k_configuration.md](./i8k_configuration.md) has instructions for how to manually configure dell laptop fan bios control in linux systems.
 
@@ -68,9 +68,8 @@ For powerline-go in bash follow README [here](https://github.com/justjanne/power
 To get list of all installed packages run :
 
 ```bash
-sudo aptitude -F '%p' search '~i!~M'	# gives without description
-sudo aptitude search '~i!~M'			# with description
-sudo apt list --installed				# with description
+apt-mark showmanual         # gives without description
+sudo apt list --installed   # with description
 ```
 
 ---

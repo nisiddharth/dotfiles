@@ -17,5 +17,10 @@
 
 ## Resources:
 
-- Find Installed themes in [`.local/share/`](.local/share/). "aurorae" has window decorations, "color-schemes" has colors, "plasma" has theme files.
 - Find Latte Dock configuration [here](.config/latte).
+
+## In case want something light:
+
+Use [cherry theme](https://github.com/nullxception/cherry-kde-theme) with default panel instead:
+
+![cherry screenshot](./screenshots/Screenshot_cherry.png)
