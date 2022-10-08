@@ -1,6 +1,7 @@
 # dotfiles
 
 Collection of files (and dotfiles) I need every time I set up a new GNU/ Linux system (Debian based), also serves as backup.
+Wanna get that swag going? Get my dotfiles! (But make sure all packages are installed)
 
 ## Desktop Environment: KDE Plasma
 
