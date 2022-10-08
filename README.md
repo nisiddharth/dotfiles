@@ -102,4 +102,4 @@ Sublime Text packages I use:
 
 ---
 
-<i>Thank you!</i>
+*Thank you!*
