@@ -1,0 +1,13 @@
+Here is the basic list of tools for beginners 
+
+1. Nmap
+2. Burp suit
+3. Aircrack-ng
+4. wireshark 
+5. Metasploit framework
+6. John the ripper 
+7. Hashcat
+8. sqlmap
+9. Autopsy 
+10. XSStrike 
+
