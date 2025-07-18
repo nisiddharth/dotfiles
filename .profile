@@ -27,11 +27,13 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 # set PATH so it includes flutter's bin if it exists
-if [ -d "$HOME/flutter/bin" ] ; then
-    PATH="$PATH:$HOME/flutter/bin"
-fi
+# if [ -d "$HOME/flutter/bin" ] ; then
+#     PATH="$PATH:$HOME/flutter/bin"
+# fi
 
-export C_INCLUDE_PATH=/usr/include/tirpc/
+# export C_INCLUDE_PATH=/usr/include/tirpc/
 
+export ANDROID_HOME="$HOME/Android/Sdk"
+export JAVA_HOME="/opt/android-studio/jbr"
+PATH="$PATH:$JAVA_HOME/bin:$ANDROID_HOME/emulator:$ANDROID_HOME/platform-tools"
 export HISTCONTROL=ignoreboth
-
